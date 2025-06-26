@@ -1,23 +1,22 @@
 import java.util.Arrays;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
     public static void main(String[] args) {
         {
-//            printThreeWords();
-//            checkSumSign();
-//            printColor();
-//            compareNumbers();
-//            System.out.println(boolMethod(13,-12));
-//            positiveCheck(12);
-//            System.out.println(negativeCheck(-123));
-//            stringPrinter("New", 12);
-//            System.out.println(isLeapYear(11));
-//            arrayChange();
-//            arrayFill();
-//            arrayMult();
-//            doubleArrayDiag();
+            printThreeWords();
+            checkSumSign();
+            printColor();
+            compareNumbers();
+            System.out.println(boolMethod(13,-12));
+            positiveCheck(12);
+            System.out.println(negativeCheck(-123));
+            stringPrinter("New", 12);
+            System.out.println(isLeapYear(11));
+            arrayChange();
+            arrayFill();
+            arrayMult();
+            doubleArrayDiag();
             System.out.println(Arrays.toString(arrayRet(15,3)));
         }
     }
