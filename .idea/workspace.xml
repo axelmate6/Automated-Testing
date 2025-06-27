@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="451832e3-cb95-44d1-997d-4c2afce89850" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_4/Lesson_4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_4/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_4/src/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_4/src/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="451832e3-cb95-44d1-997d-4c2afce89850" name="Changes" comment="lesson 4">
+      <change afterPath="$PROJECT_DIR$/Lesson_4/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_4/src/GeometricCountable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_4/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_4/src/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_4/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_4/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -78,19 +78,6 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="lesson_4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="lesson_4" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -110,7 +97,8 @@
       <workItem from="1750359818382" duration="7587000" />
       <workItem from="1750940668884" duration="354000" />
       <workItem from="1750941210810" duration="5933000" />
-      <workItem from="1750958869280" duration="7497000" />
+      <workItem from="1750958869280" duration="10638000" />
+      <workItem from="1751037486684" duration="5519000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -168,7 +156,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750948148714</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="lesson 4">
+      <option name="closed" value="true" />
+      <created>1750966570602</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750966570602</updated>
+    </task>
+    <task id="LOCAL-00009" summary="lesson 4">
+      <option name="closed" value="true" />
+      <created>1750966589431</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750966589431</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +191,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="lesson 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -197,10 +202,14 @@
           <line>11</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lesson_4/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="2" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Lesson_4/src/GeometricCountable.java</url>
+          <line>13</line>
+          <properties class="GeometricCountable" method="getTriangleArea">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

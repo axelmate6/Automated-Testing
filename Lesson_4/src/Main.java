@@ -32,6 +32,23 @@ public class Main {
 
             }
         }
+        Triangle triangle = new Triangle(7, 3, 5);
+        Rectangle rectangle = new Rectangle(10, 15);
+        Circle circle = new Circle(23);
+        triangle.setFillingColor("Оранжевый");
+        rectangle.setFillingColor("Голубой");
+        System.out.println(triangle.getTriangleArea(triangle.a, triangle.b, triangle.c));
+        System.out.println(triangle.getTrianglePerimeter(triangle.a, triangle.b, triangle.c));
+        System.out.println(triangle.getBorderColor());
+        System.out.println(triangle.getFillingColor());
+        System.out.println(rectangle.getRectanglePerimeter(rectangle.a, rectangle.b));
+        System.out.println(rectangle.getRectangleArea(rectangle.a, rectangle.b));
+        System.out.println(rectangle.getBorderColor());
+        System.out.println(rectangle.getFillingColor());
+        System.out.println(circle.getCirclePerimeter(circle.r));
+        System.out.println(circle.getCircleArea(circle.r));
+        System.out.println(circle.getFillingColor());
+        System.out.println(circle.getBorderColor());
 
     }
 
