@@ -1,5 +1,5 @@
-public class Animal {
-    static int noOfAnimals = 0;
+public abstract class Animal {
+    public static int noOfAnimals = 0;
     public Animal() {
     }
 

@@ -1,8 +1,8 @@
 public class Cat extends Animal {
     String name;
-    int maxRunDistance = 200;
-    boolean fulness = false;
-    static int noOfCats = 0;
+    private int maxRunDistance = 200;
+    public boolean fulness = false;
+    public static int noOfCats = 0;
 
     public Cat(String name) {
         this.name = name;

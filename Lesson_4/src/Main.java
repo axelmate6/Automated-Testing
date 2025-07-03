@@ -1,8 +1,6 @@
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Main {
-    public static int foodBowl = 20;
-
     public static void main(String[] args) {
         Cat vasya = new Cat("Вася");
         Cat sara = new Cat("Сара");
@@ -19,13 +17,14 @@ public class Main {
         cats[2] = new Cat("Кузя");
         cats[3] = new Cat("Лорд");
         cats[4] = new Cat("Барсик");
+        FoodBowl foodBowl = new FoodBowl(20);
         for (int i = 0; i < cats.length; i++) {
             if (cats[i].fulness == false) {
                 int catApetite = ThreadLocalRandom.current().nextInt(1, 10);
-                cats[i].eatFood(catApetite, foodBowl);
-                foodBowl = foodBowl - catApetite;
+                cats[i].eatFood(catApetite, foodBowl.food);
+                foodBowl.setFood(foodBowl.food-catApetite);
                 if (cats[i].fulness == false) {
-                    addFood(30);
+                    foodBowl.addFood(30);
                     System.out.println("Миска пополнена");
                     i = i-1;
                 }
@@ -37,22 +36,20 @@ public class Main {
         Circle circle = new Circle(23);
         triangle.setFillingColor("Оранжевый");
         rectangle.setFillingColor("Голубой");
-        System.out.println(triangle.getTriangleArea(triangle.a, triangle.b, triangle.c));
-        System.out.println(triangle.getTrianglePerimeter(triangle.a, triangle.b, triangle.c));
+        System.out.println(triangle.getArea(triangle.a, triangle.b, triangle.c));
+        System.out.println(triangle.getPerimeter(triangle.a, triangle.b, triangle.c));
         System.out.println(triangle.getBorderColor());
         System.out.println(triangle.getFillingColor());
-        System.out.println(rectangle.getRectanglePerimeter(rectangle.a, rectangle.b));
-        System.out.println(rectangle.getRectangleArea(rectangle.a, rectangle.b));
+        System.out.println(rectangle.getPerimeter(rectangle.a, rectangle.b));
+        System.out.println(rectangle.getArea(rectangle.a, rectangle.b));
         System.out.println(rectangle.getBorderColor());
         System.out.println(rectangle.getFillingColor());
-        System.out.println(circle.getCirclePerimeter(circle.r));
-        System.out.println(circle.getCircleArea(circle.r));
+        System.out.println(circle.getPerimeter(circle.r));
+        System.out.println(circle.getArea(circle.r));
         System.out.println(circle.getFillingColor());
         System.out.println(circle.getBorderColor());
 
     }
 
-    public static void addFood(int food) {
-        foodBowl = foodBowl + food;
-    }
+
 }

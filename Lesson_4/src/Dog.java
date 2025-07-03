@@ -1,8 +1,8 @@
 public class Dog extends Animal {
     String name;
-    int maxRunDistance = 500;
-    int maxSwimDistance = 10;
-    static int noOfDogs = 0;
+    private int maxRunDistance = 500;
+    private int maxSwimDistance = 10;
+    public static int noOfDogs = 0;
 
     public Dog(String name, int maxDistance) {
     }
