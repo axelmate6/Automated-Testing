@@ -11,12 +11,7 @@ public class Main {
         products[3] = new Product("V30+", "2024.01.02", "LG", "South Korea", 2500, false);
         products[4] = new Product("Xperia", "2023.03.29", "Sony", "Japan", 3500, false);
         Park park1 = new Park();
-        Park.Attractions attractions1 = park1.new Attractions();
-        attractions1.attractionName = "Figure 8";
-        attractions1.openingHours = "11:00-21:00";
-        attractions1.price = 50;
-        System.out.println(attractions1.attractionName);
-        System.out.println(attractions1.openingHours);
-        System.out.println(attractions1.price);
+        Park.Attractions attractions1 = park1.new Attractions("Figure 8", "11:00-21:00",50);
+        attractions1.getAttractionInfo();
     }
 }
