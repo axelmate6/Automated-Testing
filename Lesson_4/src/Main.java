@@ -21,7 +21,7 @@ public class Main {
         for (int i = 0; i < cats.length; i++) {
             if (cats[i].fulness == false) {
                 int catApetite = ThreadLocalRandom.current().nextInt(1, 10);
-                cats[i].eatFood(catApetite, foodBowl.food);
+                cats[i].eatFood(catApetite, foodBowl);
                 foodBowl.setFood(foodBowl.food-catApetite);
                 if (cats[i].fulness == false) {
                     foodBowl.addFood(30);

@@ -24,8 +24,8 @@ public class Cat extends Animal {
         System.out.println("Коты не умеют плавать");
     }
 
-    public void eatFood(int amount, int availableFood) {
-        if (amount <= availableFood) {
+    public void eatFood(int amount, FoodBowl bowl) {
+        if (amount <= bowl.food) {
         System.out.println(name+" поел");
         fulness = true;
         } else  {
