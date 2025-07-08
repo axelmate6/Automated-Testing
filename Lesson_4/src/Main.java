@@ -20,9 +20,9 @@ public class Main {
         FoodBowl foodBowl = new FoodBowl(20);
         for (int i = 0; i < cats.length; i++) {
             if (cats[i].fulness == false) {
-                int catApetite = ThreadLocalRandom.current().nextInt(1, 10);
+                int catApetite = ThreadLocalRandom.current().nextInt(1, 15);
                 cats[i].eatFood(catApetite, foodBowl);
-                foodBowl.setFood(foodBowl.food-catApetite);
+                foodBowl.decreaseFood(catApetite);
                 if (cats[i].fulness == false) {
                     foodBowl.addFood(30);
                     System.out.println("Миска пополнена");

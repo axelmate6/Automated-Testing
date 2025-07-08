@@ -9,4 +9,7 @@ public class FoodBowl {
     public void setFood(int food) {
         this.food = food;
     }
+    public void decreaseFood(int amount) {
+        food -= amount;
+    }
 }
