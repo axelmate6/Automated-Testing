@@ -1,8 +1,4 @@
 public class Park {
-    private String name;
-    private String country;
-    private String city;
-    private String address;
     public class Attractions{
         String attractionName;
         String openingHours;

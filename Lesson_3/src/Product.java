@@ -1,10 +1,10 @@
 import java.time.LocalDate;
 
 public class Product {
-    String name;
-    String manufactureDate;
-    String manufacturer;
-    String country;
+    private String name;
+    private String manufactureDate;
+    private String manufacturer;
+    private String country;
     int price;
     boolean reservationStatus;
     public void getProductInfo(Product product) {
