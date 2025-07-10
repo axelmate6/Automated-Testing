@@ -1,4 +1,4 @@
-package main.java.org.example;
+package org.example;
 
 public class TriangleArea {
     public static Double calculateArea(int a, int b, int c) {

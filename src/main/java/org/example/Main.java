@@ -1,9 +1,9 @@
-package main.java.org.example;
+package org.example;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println(ArithmeticOperations.divide(10, 0));
+        System.out.println(ArithmeticOperations.divide(3,0));
     }
 }

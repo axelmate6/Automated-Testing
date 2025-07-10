@@ -1,4 +1,4 @@
-package main.java.org.example;
+package org.example;
 
 public class ArithmeticOperations {
     public static int add(int a, int b) {
@@ -13,8 +13,8 @@ public class ArithmeticOperations {
         return a * b;
     }
 
-    public static Double divide(int a, int b) {
-        if (b == 0) return null;
+    public static double divide(int a, int b) throws ArithmeticException {
+        if (b == 0) throw new ArithmeticException("Деление на ноль запрещено");
         return (double) a / b;
     }
 }
