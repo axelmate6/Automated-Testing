@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a7c2e66-fcaf-4ee5-8f0a-ac10144cb100" name="Changes" comment="lesson 7 junit 5">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArithmeticOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NumberCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TriangleArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ArithmeticOperationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FactorialTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NumberCompareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TriangleAreaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_07_2025_18_48_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_07_2025_18_48__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automated-Testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Automated-Testing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automated-Testing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArithmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArithmeticOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Factorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NumberCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/NumberCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TriangleArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TriangleArea.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,25 +35,113 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Lesson_7_junit_5" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;axelmate6&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/axelmate6/Automated-Testing.git&quot;,
+    &quot;accountId&quot;: &quot;ce1dd81b-e50f-4b11-be24-45311097cf13&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2zghtPC7aNoOlJhfuKAT3ncMxIu" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.All in Automated-Testing.executor": "Run",
+    "JUnit.ArithmeticOperationsTest.testDivideInvalid.executor": "Run",
+    "JUnit.FactorialTest.executor": "Run",
+    "JUnit.FactorialTest.testFactorialNegative.executor": "Run",
+    "JUnit.NumberCompareTest.executor": "Run",
+    "JUnit.NumberCompareTest.testAIsLess.executor": "Run",
+    "JUnit.TriangleAreaTest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Lesson__7__junit__5",
+    "TestNG.ArithmeticOperationsTest.executor": "Run",
+    "TestNG.FactorialTest.executor": "Run",
+    "TestNG.NumberCompareTest.executor": "Run",
+    "TestNG.TriangleAreaTest.executor": "Run",
+    "git-widget-placeholder": "Lesson__7__testng",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Asus/IdeaProjects/Automated-Testing/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="All in Automated-Testing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automated-Testing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArithmeticOperationsTest.testDivideInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automated-Testing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArithmeticOperationsTest" />
+      <option name="METHOD_NAME" value="testDivideInvalid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactorialTest.testFactorialNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automated-Testing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FactorialTest" />
+      <option name="METHOD_NAME" value="testFactorialNegative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberCompareTest.testAIsLess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automated-Testing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumberCompareTest" />
+      <option name="METHOD_NAME" value="testAIsLess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="lesson_7_junit_5" />
       <method v="2">
@@ -56,6 +153,22 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in Automated-Testing" />
+        <item itemvalue="JUnit.NumberCompareTest.testAIsLess" />
+        <item itemvalue="JUnit.ArithmeticOperationsTest.testDivideInvalid" />
+        <item itemvalue="JUnit.FactorialTest.testFactorialNegative" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="lesson 3">
@@ -74,8 +187,43 @@
       <option name="project" value="LOCAL" />
       <updated>1752153293350</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lesson 7 junit 5">
+      <option name="closed" value="true" />
+      <created>1752156171484</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752156171484</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a7c2e66-fcaf-4ee5-8f0a-ac10144cb100" name="Changes" comment="lesson 7 junit 5" />
+      <created>1752158841571</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752158841571</updated>
+      <workItem from="1752158843755" duration="260000" />
+      <workItem from="1752159123430" duration="651000" />
+      <workItem from="1752159796485" duration="547000" />
+      <workItem from="1752160358993" duration="2083000" />
+      <workItem from="1752173139372" duration="1168000" />
+      <workItem from="1752174322289" duration="567000" />
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson 3" />

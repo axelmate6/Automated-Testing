@@ -1,8 +1,8 @@
-package main.java.org.example;
+package org.example;
 
 public class Factorial {
     public static long factorial(int n) {
-        if (n < 0) return 0;
+        if (n < 0) throw new IllegalArgumentException("Факториал только для натуральных чисел");
         long result = 1;
         for (int i = 2; i <= n; i++) {
             result *= i;
