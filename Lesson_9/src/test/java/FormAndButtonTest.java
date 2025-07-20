@@ -4,6 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.*;
 
 import java.time.Duration;
+import java.util.List;
 
 public class FormAndButtonTest {
     private WebDriver driver;
@@ -35,11 +36,11 @@ public class FormAndButtonTest {
         String continueButtonXpath = "//*[@id=\"pay-connection\"]/button";
         WebElement continueBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(continueButtonXpath)));
         continueBtn.click();
-        WebElement iframeElement = wait.until(ExpectedConditions.presenceOfElementLocated(By.tagName("iframe")));
+        WebElement iframeElement = wait.until(ExpectedConditions.presenceOfElementLocated(By.className("bepaid-iframe")));
         driver.switchTo().frame(iframeElement);
-        String nextStepXpath = "/html/body/div[8]/div/iframe";
+        String nextStepXpath = "//*[@id=\"gpay-button-online-api-id\"]";
         try {
-            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(nextStepXpath)));
+            wait.until(ExpectedConditions.elementToBeClickable(By.xpath(nextStepXpath)));
             System.out.println("Переход выполнен успешно.");
         } catch (TimeoutException e) {
             Assertions.fail("Следующий шаг не появился после нажатия кнопки");
