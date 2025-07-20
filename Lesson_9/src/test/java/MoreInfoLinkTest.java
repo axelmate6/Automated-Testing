@@ -26,6 +26,7 @@ public class MoreInfoLinkTest {
         }
         String linkXpath = "//a[contains(text(), 'Подробнее о сервисе')]";
         WebElement link = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(linkXpath)));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", link);
         link.click();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.tagName("body")));
         String currentUrl = driver.getCurrentUrl();
