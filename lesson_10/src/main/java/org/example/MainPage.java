@@ -7,43 +7,63 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
+import java.util.List;
 
 public class MainPage {
     private WebDriver driver;
-    private WebDriverWait wait;
+    private static WebDriverWait wait;
 
     public MainPage(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
-    public void open() {
-        driver.get("https://www.mts.by/");
-        try {
-            WebElement acceptCookiesButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("cookie-agree")));
-            acceptCookiesButton.click();
-        } catch (TimeoutException e) {
-        }
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//h2[contains(., 'Онлайн пополнение') and contains(., 'без комиссии')]")));
+    public String getBlockTitle() {
+        String text = driver.findElement(By.xpath("//h2[contains(., 'Онлайн пополнение') and contains(., 'без комиссии')]")).getText();
+        return text.replaceAll("\\s+", " ").trim();
     }
 
-    public void selectPayUpBlock() {
-        // Предположим, что блок уже есть на странице
-        // Можно добавить клик по кнопке или ссылке, если нужно
+    public List<WebElement> getPaymentLogos() {
+        return driver.findElements(By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[2]/ul"));
     }
 
-    public void selectPaymentOption(String optionName) {
-        String optionXpath = "//div[contains(@class,'payment-options')]//label[contains(text(),'" + optionName + "')]//preceding-sibling::input";
-        WebElement optionRadio = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(optionXpath)));
-        if (!optionRadio.isSelected()) {
-            optionRadio.click();
-        }
+    public WebElement getMoreInfoLink() {
+        return driver.findElement(By.linkText("Подробнее о сервисе"));
+    }
+
+    public void clickMoreInfo() {
+        getMoreInfoLink().click();
+    }
+
+    public WebElement getOptionByName(String name) {
+        return driver.findElement(By.xpath("//label[contains(text(),'" + name + "')]//preceding-sibling::input"));
+    }
+
+    public WebElement getPhoneNumberField() {
+        return driver.findElement(By.id("phoneNumber")); // замените на актуальный локатор
+    }
+
+    public WebElement getAmountField() {
+        return driver.findElement(By.id("amount")); // замените на актуальный локатор
+    }
+
+    public WebElement getContinueButton() {
+        return driver.findElement(By.xpath("//button[contains(text(),'Продолжить')]"));
+    }
+
+    public void fillPhoneNumber(String number) {
+        WebElement field = getPhoneNumberField();
+        field.clear();
+        field.sendKeys(number);
+    }
+
+    public void fillAmount(String amount) {
+        WebElement field = getAmountField();
+        field.clear();
+        field.sendKeys(amount);
     }
 
     public void clickContinue() {
-        String continueBtnXpath = "//button[contains(text(),'Продолжить')]";
-        WebElement btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(continueBtnXpath)));
-        btn.click();
+        getContinueButton().click();
     }
+
 }
