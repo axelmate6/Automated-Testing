@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="940dfaa8-0630-4040-a178-4531e716d812" name="Changes" comment="lesson 10" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Lesson_9" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;axelmate6&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/axelmate6/Automated-Testing.git&quot;,
+    &quot;accountId&quot;: &quot;ce1dd81b-e50f-4b11-be24-45311097cf13&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2zjNpa8yiaGHg3w9rFDVfCQyhCj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PostmanEchoPutTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BlockNameTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FormAndButtonTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LogosPresenceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MoreInfoLinkTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PostmanEchoDeleteTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PostmanEchoGetTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PostmanEchoPatchTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PostmanEchoPostFormDataTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PostmanEchoPostRawTextTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PostmanEchoPutTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UnfilledFieldsTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Lesson__10&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Asus/IdeaProjects/Automated-Testing/lesson_10/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="940dfaa8-0630-4040-a178-4531e716d812" name="Changes" comment="" />
+      <created>1752240705959</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752240705959</updated>
+      <workItem from="1752240707102" duration="110000" />
+      <workItem from="1752240844972" duration="759000" />
+      <workItem from="1752241749155" duration="62000" />
+      <workItem from="1752241821019" duration="213000" />
+      <workItem from="1752242045171" duration="42000" />
+      <workItem from="1752242097536" duration="13200000" />
+      <workItem from="1752586468049" duration="2467000" />
+      <workItem from="1752773635936" duration="2380000" />
+      <workItem from="1752776040282" duration="689000" />
+      <workItem from="1752776792383" duration="18647000" />
+      <workItem from="1752795716361" duration="2003000" />
+      <workItem from="1752838017064" duration="5030000" />
+      <workItem from="1752938220124" duration="103000" />
+      <workItem from="1753028401802" duration="435000" />
+    </task>
+    <task id="LOCAL-00001" summary="lesson 8">
+      <option name="closed" value="true" />
+      <created>1752242273333</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752242273333</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lesson 8">
+      <option name="closed" value="true" />
+      <created>1752263028637</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752263028637</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lesson 9">
+      <option name="closed" value="true" />
+      <created>1752794276618</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752794276618</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lesson 10">
+      <option name="closed" value="true" />
+      <created>1752938301438</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752938301438</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson 8" />
+    <MESSAGE value="lesson 9" />
+    <MESSAGE value="lesson 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 10" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../Lesson_8/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
