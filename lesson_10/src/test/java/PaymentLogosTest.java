@@ -13,6 +13,7 @@ public class PaymentLogosTest {
         System.setProperty("webdriver.chrome.driver", "C:/Users/Asus/IdeaProjects/Automated-Testing/lesson_10/resources/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://mts.by");
+        driver.manage().window().maximize();
         mainPage = new MainPage(driver);
     }
 
@@ -25,6 +26,6 @@ public class PaymentLogosTest {
 
     @Test
     public void testPaymentLogosPresence() {
-        Assertions.assertFalse(mainPage.getPaymentLogos().isEmpty(), "Логотипы платежных систем найдены");
+        Assertions.assertFalse(mainPage.getPaymentLogos().isEmpty(), "Логотипы платежных систем не найдены");
     }
 }

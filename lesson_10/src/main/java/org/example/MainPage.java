@@ -36,11 +36,11 @@ public class MainPage {
     }
 
     public WebElement getPhoneNumberField() {
-        return driver.findElement(By.id("phoneNumber")); // замените на актуальный локатор
+        return driver.findElement(By.id("connection-phone"));
     }
 
     public WebElement getAmountField() {
-        return driver.findElement(By.id("amount")); // замените на актуальный локатор
+        return driver.findElement(By.id("connection-sum"));
     }
 
     public WebElement getContinueButton() {
@@ -93,7 +93,6 @@ public class MainPage {
 
     public void switchToDomashniyInternet(){
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", getDomashniyInternet());
-//        WebElement field = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[1]/div[1]/div[2]/ul/li[2]/p")));
         getDomashniyInternet().click();
     }
 

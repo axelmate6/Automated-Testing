@@ -18,6 +18,7 @@ public class MoreInfoLinkTest {
         System.setProperty("webdriver.chrome.driver", "C:/Users/Asus/IdeaProjects/Automated-Testing/lesson_10/resources/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://mts.by");
+        driver.manage().window().maximize();
         mainPage = new MainPage(driver);
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
