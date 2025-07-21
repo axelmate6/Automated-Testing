@@ -7,13 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lesson_10" />
-        <module name="Lesson_10" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Automated-Testing" target="1.8" />
-      <module name="Lesson_10" target="11" />
-      <module name="Lesson_9" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>

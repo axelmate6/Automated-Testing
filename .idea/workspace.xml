@@ -4,24 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="940dfaa8-0630-4040-a178-4531e716d812" name="Changes" comment="lesson 9">
-      <change afterPath="$PROJECT_DIR$/lesson_10/src/test/java/BlockTitleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10/src/test/java/MoreInfoLinkTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10/src/test/java/PaymentLogosTest.java" afterDir="false" />
+    <list default="true" id="e0d613a9-23b7-4aa8-b7bc-f42535e70e71" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Automated-Testing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/src/test/java/FormAndButtonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/src/test/java/FormPlaceholderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_10/src/main/java/org/example/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/main/java/org/example/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/src/main/java/org/example/PayUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/main/java/org/example/PaymentPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/src/main/resources/LICENSE.chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/src/main/resources/THIRD_PARTY_NOTICES.chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/src/main/resources/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/src/test/java/UnfilledFieldsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/target/classes/LICENSE.chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/target/classes/THIRD_PARTY_NOTICES.chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/target/classes/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_10/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/target/classes/org/example/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_10/target/classes/org/example/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/target/classes/org/example/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/target/classes/org/example/PayUpPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/target/test-classes/UnfilledFieldsTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +32,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="Lesson_9" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -56,9 +47,10 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2zjNpa8yiaGHg3w9rFDVfCQyhCj" />
+  <component name="ProjectId" id="309ife8d7ltWEgJ9ykUdnGu8Jcq" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -66,41 +58,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.PostmanEchoPutTest.executor": "Run",
-    "JUnit.BlockNameTest.executor": "Run",
-    "JUnit.BlockTitleTest.executor": "Run",
-    "JUnit.FormAndButtonTest.executor": "Run",
-    "JUnit.LogosPresenceTest.executor": "Run",
-    "JUnit.MoreInfoLinkTest.executor": "Run",
-    "JUnit.PaymentLogosTest.executor": "Run",
-    "JUnit.PostmanEchoDeleteTest.executor": "Run",
-    "JUnit.PostmanEchoGetTest.executor": "Run",
-    "JUnit.PostmanEchoPatchTest.executor": "Run",
-    "JUnit.PostmanEchoPostFormDataTest.executor": "Run",
-    "JUnit.PostmanEchoPostRawTextTest.executor": "Run",
-    "JUnit.PostmanEchoPutTest.executor": "Run",
-    "JUnit.UnfilledFieldsTest.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Lesson__10",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Asus/IdeaProjects/Automated-Testing/lesson_10/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.FormPlaceholderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MoreInfoLinkTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Lesson__10&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -111,93 +86,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="940dfaa8-0630-4040-a178-4531e716d812" name="Changes" comment="" />
-      <created>1752240705959</created>
+      <changelist id="e0d613a9-23b7-4aa8-b7bc-f42535e70e71" name="Changes" comment="" />
+      <created>1753046295292</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1752240705959</updated>
-      <workItem from="1752240707102" duration="110000" />
-      <workItem from="1752240844972" duration="759000" />
-      <workItem from="1752241749155" duration="62000" />
-      <workItem from="1752241821019" duration="213000" />
-      <workItem from="1752242045171" duration="42000" />
-      <workItem from="1752242097536" duration="13200000" />
-      <workItem from="1752586468049" duration="2467000" />
-      <workItem from="1752773635936" duration="2380000" />
-      <workItem from="1752776040282" duration="689000" />
-      <workItem from="1752776792383" duration="18647000" />
-      <workItem from="1752795716361" duration="2003000" />
-      <workItem from="1752838017064" duration="5030000" />
-      <workItem from="1752938220124" duration="103000" />
-      <workItem from="1753028401802" duration="435000" />
+      <updated>1753046295292</updated>
+      <workItem from="1753046297121" duration="8971000" />
+      <workItem from="1753117586521" duration="3025000" />
     </task>
-    <task id="LOCAL-00001" summary="lesson 8">
-      <option name="closed" value="true" />
-      <created>1752242273333</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1752242273333</updated>
-    </task>
-    <task id="LOCAL-00002" summary="lesson 8">
-      <option name="closed" value="true" />
-      <created>1752263028637</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1752263028637</updated>
-    </task>
-    <task id="LOCAL-00003" summary="lesson 9">
-      <option name="closed" value="true" />
-      <created>1752794276618</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1752794276618</updated>
-    </task>
-    <task id="LOCAL-00004" summary="lesson 10">
-      <option name="closed" value="true" />
-      <created>1752938301438</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1752938301438</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="lesson 8" />
-    <MESSAGE value="lesson 9" />
-    <MESSAGE value="lesson 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 10" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../Lesson_8/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
