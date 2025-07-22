@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0d613a9-23b7-4aa8-b7bc-f42535e70e71" name="Changes" comment="lesson 10">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/src/main/java/org/example/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/main/java/org/example/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/src/main/java/org/example/PaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/main/java/org/example/PaymentPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/src/test/java/FormAndButtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/test/java/FormAndButtonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/src/test/java/MoreInfoLinkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/test/java/MoreInfoLinkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/src/test/java/PaymentLogosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/test/java/PaymentLogosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_10/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_10/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/target/classes/org/example/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_10/target/classes/org/example/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/target/classes/org/example/MainPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,28 +54,83 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.BlockTitleTest.executor": "Run",
     "JUnit.FormAndButtonTest.executor": "Run",
     "JUnit.FormPlaceholderTest.executor": "Run",
     "JUnit.MoreInfoLinkTest.executor": "Run",
+    "JUnit.java in lesson_11.executor": "Run",
+    "Maven.lesson_11 [test].executor": "Run",
+    "Maven.lesson_11 [verify].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Lesson__10",
+    "git-widget-placeholder": "Lesson__11",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.java in lesson_11">
+    <configuration name="java in lesson_11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson_11" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/lesson_10/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson_11 [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/lesson_10" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.java in lesson_11" />
+        <item itemvalue="Maven.lesson_11 [test]" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
-        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
@@ -88,6 +143,11 @@
       <updated>1753046295292</updated>
       <workItem from="1753046297121" duration="8971000" />
       <workItem from="1753117586521" duration="9903000" />
+      <workItem from="1753140048457" duration="594000" />
+      <workItem from="1753140661361" duration="822000" />
+      <workItem from="1753141523424" duration="290000" />
+      <workItem from="1753141940529" duration="1392000" />
+      <workItem from="1753143350253" duration="1343000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 10">
       <option name="closed" value="true" />
