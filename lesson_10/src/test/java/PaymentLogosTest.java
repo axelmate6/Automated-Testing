@@ -1,20 +1,10 @@
-import org.example.MainPage;
 import org.junit.jupiter.api.*;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
-public class PaymentLogosTest {
-
-    private WebDriver driver;
-    private MainPage mainPage;
+public class PaymentLogosTest extends SetUp {
 
     @BeforeEach
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:/Users/Asus/IdeaProjects/Automated-Testing/lesson_10/resources/chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.get("https://mts.by");
-        driver.manage().window().maximize();
-        mainPage = new MainPage(driver);
+        super.setUp();
     }
 
     @AfterEach
@@ -26,6 +16,6 @@ public class PaymentLogosTest {
 
     @Test
     public void testPaymentLogosPresence() {
-        Assertions.assertFalse(mainPage.getPaymentLogos().isEmpty(), "Логотипы платежных систем не найдены");
+        mainPage.logosPresence();
     }
 }

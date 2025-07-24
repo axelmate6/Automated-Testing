@@ -1,5 +1,6 @@
-package org.example;
+package Pages;
 
+import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -10,6 +11,15 @@ import java.util.List;
 public class MainPage {
     private WebDriver driver;
     private WebDriverWait wait;
+    private final By titleBlock = By.xpath("//h2[contains(., 'Онлайн пополнение') and contains(., 'без комиссии')]");
+    private final By moreInfoLink = By.linkText("Подробнее о сервисе");
+    private final By phoneNumber = By.id("connection-phone");
+    private final By amountField = By.id("connection-sum");
+    private final By continueButton = By.xpath("//button[contains(text(),'Продолжить')]");
+    private final By uslugiSvyazi = By.linkText("Услуги связи");
+    private final By domashniyInternet = By.xpath("//*[@id=\"pay\"]/option[2]");
+    private final By rassrochka = By.xpath("//*[@id=\"pay\"]/option[3]");
+    private final By zadolzhennost = By.xpath("//*[@id=\"pay\"]/option[4]");
 
     public MainPage(WebDriver driver) {
         this.driver = driver;
@@ -17,34 +27,51 @@ public class MainPage {
     }
 
     public String getBlockTitle() {
-        String text = driver.findElement(By.xpath("//h2[contains(., 'Онлайн пополнение') and contains(., 'без комиссии')]")).getText();
+        String text = driver.findElement(titleBlock).getText();
         return text.replaceAll("\\s+", " ").trim();
     }
 
-    public List<WebElement> getPaymentLogos() {
-        return driver.findElements(By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[2]/ul"));
-    }
-
     public WebElement getMoreInfoLink() {
-        WebElement element = driver.findElement(By.linkText("Подробнее о сервисе"));
+        WebElement element = driver.findElement(moreInfoLink);
         return element;
     }
 
+    public void logosPresence(){
+        String[] logoXPaths = {
+                "//img[contains(@alt, 'Visa')]",
+                "//img[contains(@alt, 'Verified By Visa')]",
+                "//img[contains(@alt, 'MasterCard')]",
+                "//img[contains(@alt, 'MasterCard Secure Code')]",
+                "//img[contains(@alt, 'Белкарт')]"
+        };
+        for (String xpath : logoXPaths) {
+            WebElement logo = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpath)));
+            Assertions.assertTrue(logo.isDisplayed(), "Логотип не отображается: " + logo.getAttribute("alt"));
+            System.out.println("Логотип найден: " + logo.getAttribute("alt"));
+        }
+    }
+
     public void clickMoreInfo() {
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", getMoreInfoLink());
         getMoreInfoLink().click();
     }
 
     public WebElement getPhoneNumberField() {
-        return driver.findElement(By.id("connection-phone"));
+        return driver.findElement(phoneNumber);
     }
 
     public WebElement getAmountField() {
-        return driver.findElement(By.id("connection-sum"));
+        return driver.findElement(amountField);
     }
 
     public WebElement getContinueButton() {
-        return driver.findElement(By.xpath("//button[contains(text(),'Продолжить')]"));
+        return driver.findElement(continueButton);
+    }
+
+    public void dropdownClick(){
+        By dropdown = By.className("select__header");
+        wait.until(ExpectedConditions.elementToBeClickable(dropdown));
+        WebElement dropdownDropdown = driver.findElement(dropdown);
+        dropdownDropdown.click();
     }
 
     public void fillPhoneNumber(String number) {
@@ -64,22 +91,22 @@ public class MainPage {
     }
 
     public WebElement getUslugiSvyazi(){
-        WebElement element = driver.findElement(By.linkText("Услуги связи"));
+        WebElement element = driver.findElement(uslugiSvyazi);
         return element;
     }
 
     public WebElement getDomashniyInternet(){
-        WebElement element = driver.findElement(By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[1]/div[1]/div[2]/ul/li[2]/p"));
+        WebElement element = driver.findElement(domashniyInternet);
         return element;
     }
 
     public WebElement getRassrochka(){
-        WebElement element = driver.findElement(By.linkText("Рассрочка"));
+        WebElement element = driver.findElement(rassrochka);
         return element;
     }
 
     public WebElement getZadolzhennost(){
-        WebElement element = driver.findElement(By.linkText("Задолженность"));
+        WebElement element = driver.findElement(zadolzhennost);
         return element;
     }
 
@@ -92,22 +119,21 @@ public class MainPage {
     }
 
     public void switchToDomashniyInternet(){
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", getDomashniyInternet());
         getDomashniyInternet().click();
     }
 
     public void switchToRassrochka(){
-        WebElement field = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[1]/div[1]/div[2]/ul/li[3]/p")));
+        WebElement field = wait.until(ExpectedConditions.elementToBeClickable(rassrochka));
         field.click();
     }
 
     public void switchToZadolzhennost(){
-        WebElement field = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[1]/div[1]/div[2]/ul/li[4]/p")));
+        WebElement field = wait.until(ExpectedConditions.elementToBeClickable(zadolzhennost));
         field.click();
     }
 
     public void switchToUslugiSvyazi(){
-        WebElement field = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[1]/div[1]/div[2]/ul/li[1]/p")));
+        WebElement field = wait.until(ExpectedConditions.elementToBeClickable(uslugiSvyazi));
         field.click();
     }
 

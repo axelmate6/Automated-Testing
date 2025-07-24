@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0d613a9-23b7-4aa8-b7bc-f42535e70e71" name="Changes" comment="lesson 10">
+    <list default="true" id="e0d613a9-23b7-4aa8-b7bc-f42535e70e71" name="Changes" comment="lesson 9">
+      <change afterPath="$PROJECT_DIR$/lesson_10/src/test/java/SetUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/src/main/java/org/example/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/main/java/org/example/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/src/main/java/org/example/PaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/main/java/org/example/PaymentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_10/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/main/java/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_10/src/main/java/org/example/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/test/java/Pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_10/src/main/java/org/example/PaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/test/java/Pages/PaymentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_10/src/test/java/BlockTitleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/test/java/BlockTitleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_10/src/test/java/FormAndButtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/test/java/FormAndButtonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_10/src/test/java/FormPlaceholderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/test/java/FormPlaceholderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_10/src/test/java/MoreInfoLinkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/test/java/MoreInfoLinkTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_10/src/test/java/PaymentLogosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/test/java/PaymentLogosTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_10/target/classes/org/example/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/target/classes/org/example/MainPage.class" afterDir="false" />
@@ -26,6 +30,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Lesson_9" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -54,15 +63,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.BlockTitleTest.executor": "Run",
     "JUnit.FormAndButtonTest.executor": "Run",
     "JUnit.FormPlaceholderTest.executor": "Run",
     "JUnit.MoreInfoLinkTest.executor": "Run",
+    "JUnit.PaymentLogosTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "Lesson__10",
     "ignore.virus.scanning.warn.message": "true",
+    "last_directory_selection": "C:/Users/Asus/IdeaProjects/Automated-Testing/lesson_10/src/test/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -102,6 +114,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson 10" />
