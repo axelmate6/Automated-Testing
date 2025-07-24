@@ -14,7 +14,9 @@ public class FormAndButtonTest extends SetUp {
 
     @AfterEach
     public void tearDown() {
-        if (driver != null) { driver.quit(); }
+        if (driver != null) {
+            driver.quit();
+        }
     }
 
     @Test
@@ -23,12 +25,10 @@ public class FormAndButtonTest extends SetUp {
         mainPage.fillAmount("100.00");
         mainPage.clickContinue();
         paymentPage.iframeSwitch();
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("pay-description__cost")));
         Assertions.assertEquals("100.00", paymentPage.getDisplayedSum());
         Assertions.assertEquals("375297777777", paymentPage.getDisplayedPhone());
-        Assertions.assertEquals("100.00",paymentPage.getButtonSum());
+        Assertions.assertEquals("100.00", paymentPage.getButtonSum());
         paymentPage.verifyIframeFieldsPlaceholders();
-        List<WebElement> icons = paymentPage.getPaymentIcons();
-        Assertions.assertFalse(icons.isEmpty(), "Иконки платёжных систем не отображаются");
+        paymentPage.verifyCardBrands();
     }
 }

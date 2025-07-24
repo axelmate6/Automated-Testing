@@ -55,6 +55,10 @@ public class MainPage {
         getMoreInfoLink().click();
     }
 
+    public void verifyMoreInfo(){
+        wait.until(ExpectedConditions.titleIs("Порядок оплаты и безопасность интернет платежей"));
+    }
+
     public WebElement getPhoneNumberField() {
         return driver.findElement(phoneNumber);
     }

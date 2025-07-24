@@ -19,7 +19,7 @@ public class MoreInfoLinkTest extends SetUp {
     @Test
     public void testMoreInfoLink() {
         mainPage.clickMoreInfo();
-        wait.until(ExpectedConditions.titleIs("Порядок оплаты и безопасность интернет платежей"));
+        mainPage.verifyMoreInfo();
         String currentUrl = driver.getCurrentUrl();
         System.out.println("Перешли по ссылке: " + currentUrl);
         driver.navigate().back();

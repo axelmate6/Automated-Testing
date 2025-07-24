@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0d613a9-23b7-4aa8-b7bc-f42535e70e71" name="Changes" comment="lesson 9">
-      <change afterPath="$PROJECT_DIR$/lesson_10/src/test/java/SetUp.java" afterDir="false" />
+    <list default="true" id="e0d613a9-23b7-4aa8-b7bc-f42535e70e71" name="Changes" comment="lesson 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/main/java/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/src/main/java/org/example/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/test/java/Pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/src/main/java/org/example/PaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/test/java/Pages/PaymentPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/src/test/java/BlockTitleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/test/java/BlockTitleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_10/src/test/java/FormAndButtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/test/java/FormAndButtonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/src/test/java/FormPlaceholderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/test/java/FormPlaceholderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_10/src/test/java/MoreInfoLinkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/test/java/MoreInfoLinkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/src/test/java/PaymentLogosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/test/java/PaymentLogosTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/target/classes/org/example/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/target/classes/org/example/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_10/src/test/java/Pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/test/java/Pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_10/src/test/java/Pages/PaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/src/test/java/Pages/PaymentPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753126254313</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson 10">
+      <option name="closed" value="true" />
+      <created>1753368397222</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753368397222</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
