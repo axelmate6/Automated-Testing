@@ -16,7 +16,7 @@ public class MoreInfoLinkTest extends SetUp {
     public void testMoreInfoLink() {
         WebElement link = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(text(), 'Подробнее о сервисе')]")));
         link.click();
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.tagName("body")));
+        wait.until(ExpectedConditions.titleIs("Порядок оплаты и безопасность интернет платежей"));
         String currentUrl = driver.getCurrentUrl();
         System.out.println("Перешли по ссылке: " + currentUrl);
         driver.navigate().back();
