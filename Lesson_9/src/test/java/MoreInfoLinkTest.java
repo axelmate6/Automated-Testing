@@ -5,28 +5,16 @@ import org.openqa.selenium.support.ui.*;
 
 import java.time.Duration;
 
-public class MoreInfoLinkTest {
-    private WebDriver driver;
-    private WebDriverWait wait;
+public class MoreInfoLinkTest extends SetUp {
 
     @BeforeEach
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:/Users/Asus/IdeaProjects/Automated-Testing/Lesson_9/resources/chromedriver.exe");
-        driver = new ChromeDriver();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        driver.get("https://www.mts.by/");
+        super.setUp();
     }
 
     @Test
     public void testMoreInfoLink() {
-        try {
-            WebElement acceptCookiesButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("cookie-agree")));
-            acceptCookiesButton.click();
-        } catch (TimeoutException e) {
-        }
-        String linkXpath = "//a[contains(text(), 'Подробнее о сервисе')]";
-        WebElement link = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(linkXpath)));
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", link);
+        WebElement link = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(text(), 'Подробнее о сервисе')]")));
         link.click();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.tagName("body")));
         String currentUrl = driver.getCurrentUrl();

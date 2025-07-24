@@ -12,25 +12,15 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class BlockNameTest {
-    private WebDriver driver;
-    private WebDriverWait wait;
+public class BlockNameTest extends SetUp {
 
     @BeforeEach
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:/Users/Asus/IdeaProjects/Automated-Testing/Lesson_9/resources/chromedriver.exe");
-        driver = new ChromeDriver();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        driver.get("https://www.mts.by/");
+        super.setUp();
     }
 
     @Test
     public void testBlockTitlePresence() {
-        try {
-            WebElement acceptCookiesButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("cookie-agree")));
-            acceptCookiesButton.click();
-        } catch (TimeoutException e) {
-        }
         WebElement blockTitle = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//h2[contains(., 'Онлайн пополнение') and contains(., 'без комиссии')]")));
         Assertions.assertTrue(blockTitle.isDisplayed(), "Блок с названием не отображается");
         System.out.println("Название блока: " + blockTitle.getText());
